@@ -1,0 +1,24 @@
+DISPLAY
+
+Os elementos html se dividem em 2 grandes categorias: os elementos do
+tipo [block] e do tipo [inline]
+
+
+BLOCK 
+
+► Elementos como o div, p, h2,...h6
+► Sempre ocupam toda a largura possivel da tela e começam em uma nova linha
+► Pode manipular o width e height.
+
+INLINE 
+
+► Elementos como span, img, a
+► Usam somente o espaço necessario e não precisam começar em uma nova linha
+► Elemento aparece proximo de outro elemento e na mesma linha
+► Não conseguem controlar o width e height
+► Desconsidera margin e padding top e bottom
+
+INLINE-BLOCK 
+
+► Muito usado para criar menus
+► Responde a width e height

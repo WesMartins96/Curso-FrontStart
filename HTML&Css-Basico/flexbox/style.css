@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 150px;
+    height: 300px;
+    background-color: black;
+
+    /* elementos css para se usar no display flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* 
+
+sempre se coloca display Flex  no elemento pai no caso a classe .container
+para selecionar a direção dos elementos usa-se flex-direction: row ou column
+
+para row
+usamos o justify-content para alinhamento horizontal
+e o align-item para alinhamentos na vertical
+
+para column
+usamos o justify-content para alinhamento vertical
+e o align-item para alinhamentos na horizontal
+
+*/

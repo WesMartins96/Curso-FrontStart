@@ -1,0 +1,31 @@
+POSITION 
+
+STATIC 
+
+► Valor Default, renderiza os elementos na ordem que aparece no documento
+► não é possivel mudar top e left
+
+RELATIVE 
+
+► O elemento pode ser posicionado relativamente a sua posição original
+► É possivel manipular top e left
+► Elemento sai fora do fluxo
+
+ABSOLUTE 
+
+► Elemento é posicionado relativamente ao ultimo antecessor que não for STATIC
+► é possivel manipular top e left
+► Elemento sai fora do fluxo
+► Necessário indicar o elemento ao qual a posição é relativamente
+
+FIXED 
+
+► Elemento é posicionado relativamente a janela do navegador
+► É possivel manipular top e left
+► Usado para menus
+
+STICKY 
+
+► Elemento é posicionado baseado na posição do scroll do usuario
+► Dependendo da posição do scroll o elemento se "gruda" em algum lugar e vira fixed.
+► É possivel manipular top e left

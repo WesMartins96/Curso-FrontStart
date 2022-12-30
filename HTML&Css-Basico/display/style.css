@@ -1,0 +1,24 @@
+p{
+    border: 2px solid red;
+    width: 200px;
+}
+
+span{
+    border: 1px solid blueviolet;
+    
+}
+
+a{
+    border: 1px solid blueviolet;
+}
+
+div{
+    border: 1px solid saddlebrown;
+    height: 200px;
+    width: 200px;
+
+    display: inline-block;
+    padding: 20px;
+    height: 10px;
+    
+}

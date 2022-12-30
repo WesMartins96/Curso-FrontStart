@@ -1,0 +1,41 @@
+
+
+/* Alinhamento horizontal */
+.container{
+    background-color: rgb(230, 203, 230);
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: gray;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+/* Alinhamento vertical */
+
+.container-v{
+    background-color: rgb(230, 203, 230);
+    height: 600px;
+
+    /* para usar o flexbox precisa-se ter um height(altura) definido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-v{
+    background-color: gray;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 10px;
+}

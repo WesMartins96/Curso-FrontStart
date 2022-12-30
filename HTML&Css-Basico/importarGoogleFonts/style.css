@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+h2, h1, h6{
+    color: blue;
+    font-family: 'Prosto One', cursive;
+}
+
+#my-title{
+    font-size: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btnAdd:hover{
+    background-color: saddlebrown;
+    color: white;
+}
+
