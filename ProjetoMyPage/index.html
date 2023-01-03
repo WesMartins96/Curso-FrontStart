@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wesley Martins</title>
 
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
         <div class="container">
+            <img src="./assets/logo.png" alt="logo">
             <h2>Olá,</h2>
             <h1>Eu sou Wesley Martins</h1>
             <p>Sou desenvolvedor Frontend, com 1 ano de experiência, 
@@ -25,15 +27,19 @@
     <nav>
         <img src="./assets/logo.png" alt="logo">
         <ul>
-            <a href="#">Sobre Mim</a>
-            <a href="#">Serviços</a>
-            <a href="#">Protifólio</a>
-            <a href="#">Currículo</a>
-            <a href="#">Contato</a>
+            <a href="#"><i data-feather="user"></i> Sobre Mim</a>
+            <a href="#"><i data-feather="briefcase"></i> Serviços</a>
+            <a href="#"><i data-feather="image"></i> Portifólio</a>
+            <a href="#"><i data-feather="list"></i> Currículo</a>
+            <a href="#"><i data-feather="send"></i> Contato</a>
         </ul>
     </nav>
 
     <section>Nova</section>
 
+
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>

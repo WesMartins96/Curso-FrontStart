@@ -63,6 +63,11 @@ header .container{
 
 }
 
+header .container img{
+    display: none;
+}
+
+
 header .container h1{
     color: var(--green);
     
@@ -89,14 +94,96 @@ nav{
     top: 0;
 }
 
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 nav ul a{
     font-size: 24px;
     color: var(--green);
     text-decoration: none;
-    margin: 0 25px;
+    
+}
+
+nav ul a svg{
+    display: none;
 }
 
 section{
     height: 1500px;
     background-color: aquamarine;
+}
+
+/* Responsividade */
+
+/* small desktops */
+@media (max-width: 1000px){
+    header .container{
+        width: 100%;
+    }
+
+    nav ul a {
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 0 30px;
+    }
+    
+    img{
+        border-radius: 10px 0 10px 0;
+    }
+}
+
+
+/* Tablets */
+@media (max-width: 767px){
+    header .container{
+        
+        width: 100%;
+    }
+
+    header .container img{
+        display: inline;
+        margin-bottom: 70px;
+    }
+
+    nav{
+        padding: 0 30px;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    nav ul{
+        padding: 0;
+    }
+
+    nav ul a{
+        font-size: 16px;
+    }
+    
+}
+
+/* Celulares */
+@media (max-width: 480px){
+    header .container{
+        padding: 0 40px;
+    }
+
+    nav{
+        padding: 0 15px;
+    }
+
+    nav ul a{
+        font-size: 12px;
+    }
+
+    nav ul a svg{
+        display: block;
+        margin: 0 auto 10px;
+    }
 }
