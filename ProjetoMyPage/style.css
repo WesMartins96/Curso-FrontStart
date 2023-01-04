@@ -95,6 +95,8 @@ nav{
     padding: 0 100px;
     position: sticky;
     top: 0;
+
+    z-index: 99;
 }
 
 nav ul{
@@ -136,7 +138,7 @@ section{
 }
 
 .about-me .img-container img{
-    width: 80%;
+    width: 70%;
     height: 40%;
     border-radius: 15px;
 
@@ -179,6 +181,22 @@ section{
     
     img{
         border-radius: 10px 0 10px 0;
+    }
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .about-me .container, .about-me .img-container{
+        width: 100%;
+    }
+
+    .about-me .container{
+        padding-right: 0;
+    }
+
+    .about-me .img-container{
+        margin: 70px 0;
     }
 }
 
@@ -234,5 +252,9 @@ section{
     nav ul a svg{
         display: block;
         margin: 0 auto 10px;
+    }
+
+    .about-me{
+        padding: 40px;
     }
 }
