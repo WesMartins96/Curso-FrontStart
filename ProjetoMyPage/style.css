@@ -132,12 +132,34 @@ section{
 .about-me .img-container{
     width: 50%;
     text-align: center;
+    position: relative;
 }
 
 .about-me .img-container img{
-    width: 70%;
+    width: 80%;
+    height: 40%;
     border-radius: 15px;
+
+    
 }
+
+/* criação das lines da foto profile */
+.about-me .img-container .line{
+    width: calc(80% + 50px);
+    height: calc(40% + 50px);
+    border: 1px solid var(--purple);
+    border-radius: 15px;
+
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 40%/2 - 25%);
+}
+
+.about-me .img-container .line.green{
+    transform: rotate(-3.3deg);
+    color: var(--green);
+}
+
 
 /* Responsividade */
 
