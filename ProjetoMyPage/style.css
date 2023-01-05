@@ -140,9 +140,49 @@ section{
 .about-me .img-container img{
     width: 70%;
     height: 40%;
-    border-radius: 15px;
+    border-radius: 15px;   
+}
 
-    
+.services{
+    text-align: center;
+    margin: -600px 0;
+    padding: 0 100px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto 0;
+}
+
+.services .services-container .services-card{
+    max-width: 360px;
+    background-color: #2F3034;
+    border: 1px solid var(--purple);
+    border-radius: 16px;
+    padding: 40px 25px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services .services-container .services-card svg{
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--bg-dark);
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+
+
+.services-card + .services-card{
+    margin-left: 10px;
 }
 
 /* criação das lines da foto profile */
