@@ -238,6 +238,26 @@ section{
     .about-me .img-container{
         margin: 70px 0;
     }
+
+    .services{
+        padding: 0;
+    }
+
+    .services .services-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-card{
+        height: 394px;
+    }
+
+    .services-card + .services-card{
+        margin-left: 0;
+        margin-top: 30px;
+        
+    }
 }
 
 
@@ -296,5 +316,13 @@ section{
 
     .about-me{
         padding: 40px;
+    }
+
+    .service{
+        margin: 70px 0;
+    }
+
+    .services .services-container{
+        padding: 0 20px;
     }
 }
