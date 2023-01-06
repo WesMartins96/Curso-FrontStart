@@ -188,7 +188,11 @@ section{
     text-align: center;
     background: url(./assets/bg.png);
     margin-bottom: 100px;
-    height: 584px;
+    height: 800px;
+}
+
+.portifolio .portifolio-container{
+    margin-top: 130px;
 }
 
 .portifolio .portifolio-container .portifolio-card{
@@ -205,6 +209,7 @@ section{
 
 .portifolio .portifolio-container .portifolio-card .img-container{
     margin: 0 25px 50px;
+    position: relative;
 }
 
 
@@ -217,6 +222,18 @@ section{
     display: flex;
     list-style: none;
     padding: 0;
+}
+
+.portifolio-container .portifolio-card .img-container .line{
+    width: calc(100% + 24px);
+    height: calc(100% + 24px);
+    border: 1px solid var(--green);
+    border-radius: 16px;
+    transform: rotate(-1.93deg);
+
+    position: absolute;
+    top: -12px;
+    left: calc(50% - 100%/2 - 12px);
 }
 
 .portifolio .portifolio-container .portifolio-card .language-container ul li{
@@ -296,11 +313,11 @@ p{
         margin: 70px 0;
     }
 
-    .services{
+    .services, .portifolio{
         padding: 0;
     }
 
-    .services .services-container{
+    .services .services-container, .portifolio .portifolio-container{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
@@ -310,10 +327,15 @@ p{
         height: 394px;
     }
 
-    .services-card + .services-card{
+    .services-card + .services-card, .portifolio-card + .portifolio-card{
         margin-left: 0;
         margin-top: 30px;
         
+    }
+
+    .portifolio{
+        margin-top: 660px;
+        height: 100%;
     }
 }
 
@@ -350,6 +372,10 @@ p{
 
 /* Celulares */
 @media (max-width: 480px){
+    body{
+        margin-bottom: calc(var(--menu-height) + 50px);
+    }
+
     header .container{
         padding: 0 40px;
     }
@@ -379,7 +405,11 @@ p{
         margin: 70px 0;
     }
 
-    .services .services-container{
+    .services .services-container, .portifolio-container{
         padding: 0 20px;
+    }
+
+    .portifolio .portifolio-container{
+        margin-top: 70px;
     }
 }
