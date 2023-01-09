@@ -275,6 +275,23 @@ p{
     margin: 0;
 }
 
+.demo{
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+.demo:hover{
+    background-color: white;
+    border-radius: 16px;
+}
+
 
 
 
