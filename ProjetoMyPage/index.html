@@ -16,32 +16,32 @@
             <img src="./assets/logo.png" alt="logo">
             <h2>Olá,</h2>
             <h1 class="title-green">Eu sou Wesley Martins</h1>
-            <p>Sou desenvolvedor Frontend, com 1 ano de experiência, 
-                já trabalhei com Angular e VueJS em grandes projetos.
+            <p>Sou desenvolvedor Fullstack, com 1 ano de experiência, 
+                já trabalhei com Angular e .NET em grandes projetos.
                 Adoro aprender coisas novas e trabalhar em equipe.
             </p>
-            <button>Entre em Contato</button>
+            <button onclick="window.open('https://api.whatsapp.com/send?phone=5511930219826')">Entre em Contato</button>
         </div>
     </header>
 
     <nav>
         <img src="./assets/logo.png" alt="logo">
         <ul>
-            <a href="#"><i data-feather="user"></i> Sobre Mim</a>
-            <a href="#"><i data-feather="briefcase"></i> Serviços</a>
-            <a href="#"><i data-feather="image"></i> Portifólio</a>
-            <a href="#"><i data-feather="list"></i> Currículo</a>
-            <a href="#"><i data-feather="send"></i> Contato</a>
+            <a href="#about-me"><i data-feather="user"></i> Sobre Mim</a>
+            <a href="#services"><i data-feather="briefcase"></i> Serviços</a>
+            <a href="#portifolio"><i data-feather="image"></i> Portifólio</a>
+            <a href="#curriculum"><i data-feather="list"></i> Currículo</a>
+            <a href="#contact"><i data-feather="send"></i> Contato</a>
         </ul>
     </nav>
 
-    <section class="about-me">
+    <section id="about-me" class="about-me">
         <div class="container">
             <h1 class="title-green">Sobre mim</h1>
-            <p>Tenho 26 anos, Trabalho como desenvolvedor frontend.
+            <p>Tenho 26 anos, Trabalho como desenvolvedor fullstack.
                 estou cursando analise e desenvolvimento de sistemas pela universidade Cruzeiro do sul
-                .E desde o inicio de 2022 eu trabalho com desenvolvimento usando: Html, Css, Javascript
-                e alguns frameworks como Bootstrap, Angular e VueJs.
+                .E desde o inicio de 2022 eu trabalho com desenvolvimento usando: Html, Css, Javascript, 
+                .NET, SQLServer e alguns frameworks e bibliotecas como Bootstrap, Entity, Angular.
                 <br><br>
                 Sou muito criativo, adoro estudar novas tecnologias e estou sempre
                 pronto para um desafio.
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
         <h1 class="title-purple">Serviços</h1>
         <div class="services-container">
             <div class="services-card">
@@ -84,7 +84,7 @@
         </div>
     </section>
 
-    <section class="portifolio">
+    <section id="portifolio" class="portifolio">
         <h1 class="title-green">Portifólio</h1>
         <div class="portifolio-container">
             <div class="portifolio-card">
@@ -151,7 +151,7 @@
         </div>
     </section>
 
-    <section class="curriculum">
+    <section id="curriculum" class="curriculum">
         <h1 class="title-green">Currículo</h1>
         <div class="container">
             <img class="curriculum-img" src="./assets/cvImg.png" alt="curriculum">
@@ -163,27 +163,35 @@
                     <span>Cidade</span><b>Mauá - SP</b>
                     <span>Telefone</span><b>(11) 930219826</b>
                     <span>Email</span><b>wesmartins96@gmail.com</b>
-                    <span>Exp</span><b>HTML, CSS, JS, Angular, Vue Js, Node</b>
+                    <span>Exp</span><b>HTML, CSS, JS, Bootstrap, Angular, JQuery, .NET, Node, SQLServer</b>
                     <span>Idiomas</span><b>Português - Inglês</b>
                 </div>
-                <button class="secondary-btn title-green">
+                <button onclick="window.open('https://drive.google.com/file/d/1-24JCbjYi9eOmO2hNmh3L7y7ZRy3Nw9e/view?usp=sharing')" class="secondary-btn title-green">
                     <i data-feather="save" ></i>
                     Baixe meu currículo completo</button>
             </div>
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <h1>Vamos trabalhar juntos?</h1>
         <p>
             Se você gostou do meu trabalho e quer que eu tire sua ideia do 
             papel ou faça parte do seu time, entre em contato comigo! 
         </p>
-        <button>Entre em contato</button>
+        <button onclick="window.open('https://api.whatsapp.com/send?phone=5511930219826')">Entre em contato</button>
 
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/wes-martins/" target="_blank"><i data-feather="linkedin"></i></a>
-            <a href=""><i data-feather="phone"></i></a>
+            <a class="title-green" 
+            style="border: 1px solid aquamarine;
+            border-radius: 16px;
+            padding: 6px;"
+            href="https://www.linkedin.com/in/wes-martins/" target="_blank"><i data-feather="linkedin"></i></a>
+            <a class="title-green" 
+            style="border: 1px solid aquamarine;
+            border-radius: 16px;
+            padding: 6px;"
+            href="https://api.whatsapp.com/send?phone=5511930219826" target="_blank"><i data-feather="phone" ></i></a>
         </div>
     </section>
 
