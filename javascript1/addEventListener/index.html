@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript -  addEventListener</title>
+</head>
+<body>
+    
+    <p id="name">Wesley Martins</p>
+
+    <script>
+        //adicionando eventos
+
+        const name = document.getElementById('name');
+
+                              //Evento   //Função
+        name.addEventListener('click', changeName);
+
+        function changeName(){
+            //mudando o elemento na pagina
+            name.innerHTML = 'Gael Martins';
+
+
+            // console.log("Mudando o elemento usando o addEventListener");
+        }
+
+    </script>
+</body>
+</html>
