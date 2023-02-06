@@ -357,7 +357,7 @@ footer{
 .curriculum{
     padding: 0 100px;
     text-align: center;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
 }
 
 
@@ -533,6 +533,7 @@ footer{
 
     .curriculum{
         padding: 0 20px;
+        margin-bottom: 400px;
     }
 
     .curriculum .container .content .curriculum-info{
